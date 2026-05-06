@@ -1,0 +1,8 @@
+{
+  "question": "Show top 10 HCPs by total ZORYVE volume.",
+  "sql": "(sql-agent)",
+  "row_count": 0,
+  "structure": {
+    "raw_sql": "(sql-agent)"
+  }
+}
