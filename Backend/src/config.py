@@ -5,11 +5,10 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 # ``Backend/`` (parent of ``src/``) — used to resolve relative workbook paths.
 _BACKEND_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_DATA_FILE_PATH = BASE_DIR / "Arcutis.xlsx"
 
 _ARCETUS_FALLBACK_NAMES: tuple[str, ...] = (
-    "Arcutis Dummy Data v1.xlsx",
-    "Arcutis_Dummy_Data_v1.xlsx",
-    "arcutis_dummy_data.xlsx",
+    "Arcutis.xlsx",
 )
 
 
